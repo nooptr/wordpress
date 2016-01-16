@@ -79,6 +79,7 @@ article h1 a {
     overflow: hidden;
     margin-top: 40px;
     margin-bottom: 40px;
+    clear: both;
 }
 
 /* ヘッダー */
@@ -119,4 +120,39 @@ footer {
     color: #ffffff;
     padding-top: 14px;
     padding-bottom: 14px;
+}
+
+/* 本文中の画像 */
+article img {
+    border: none; /* IE10以前の罫線を削除するため */
+    max-width: 100%;
+    height: auto;
+}
+
+.aligncenter {
+    display: block;
+    margin: 30px auto 30px auto;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.wp-caption {
+    max-width: 100%;
+}
+
+.wp-caption-text {
+    margin: 0;
+    color: #666666;
+    font-size: 14px;
+    text-align: center;
 }
